@@ -1,0 +1,28 @@
+    1  cd vjezba_2/data
+    2  cd OS_2
+    3  cd vjezba_2/data
+    4  ls -laS ../backup
+    5  cd ../..
+    6  git add .
+    7  git commit -m "Riješen zadatak 3"
+    8  git push origin main
+    9  git add .
+   10  git commit -m "Riješen zadatak 3"
+   11  git push origin main
+   12  cd vjezba_2/data
+   13  rm -iv script.js style.css
+   14  ls
+   15  cp -anv ../backup/. .
+   16  ls -lat1
+   17  find . -maxdepth 1
+   18  cd ../..
+   19  git add .
+   20  git commit -m "Riješen zadatak 4"
+   21  git push origin main
+   22  cd ~/Documents
+   23  cd ~/workspaces
+   24  cd ~/workspaces/FIPU-OS/OS_2
+   25  ls -laS
+   26  ls -lhS
+   27  tree -a
+   28  history > vjezba_2_history.txt
