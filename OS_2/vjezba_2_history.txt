@@ -1,0 +1,36 @@
+    1  ls
+    2  mkdir OS_2
+    3  cd OS_2
+    4  mkdir vjezba_2
+    5  mkdir vjezba_2/data
+    6  mkdir vjezba_2/backup
+    7  cd vjezba_2/data
+    8  echo 'console.log("Hello, World!")' > script.js
+    9  echo 'body { background-color: #f0f0f0; }' > style.css
+   10  echo 'VJEZBE=OS' > .env
+   11  cat script.js
+   12  cat style.css
+   13  cat .env
+   14  cd ../..
+   15  git add .
+   16  git commit -m "Riješen zadatak 2"
+   17  git push
+   18  cp -av vjezba_2/data/. vjezba_2/backup/
+   19  cd vjezba_2/data
+   20  ls -laS ../backup
+   21  cd ../..
+   22  cd vjezba_2/data
+   23  rm -iv script.js style.css
+   24  cp -anv ../backup/. .
+   25  ls -lat1
+   26  find . -maxdepth 1
+   27  cd ../..
+   28  git add .
+   29  git commit -m "Riješen zadatak 4"
+   30  git push
+   31  cd ~/Documents
+   32  cd ~/FIPU-OS
+   33  ls -laS
+   34  ls -lhS
+   35  tree -a
+   36  history > vjezba_2_history.txt
